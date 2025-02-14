@@ -101,7 +101,7 @@
 -      case TargetPlatform.tester:
 -        throwToolExit('Unsupported host platform: $hostPlatform');
 -    }
-+    return io.Platform.environment['DART_ROOT'] ?? '/opt/dart-sdk'
++    return io.Platform.environment['DART_ROOT'] ?? '/opt/dart-sdk';
    }
 
    String _getFlutterWebSdkPath() {
