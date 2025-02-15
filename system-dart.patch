@@ -5,7 +5,7 @@
    }
    final String flutterExecutable = pathJoin(<String>[
 -    flutterRoot,
-+    'usr',
++    '/usr',
      'bin',
 -    if (Platform.isWindows) 'flutter.bat' else 'flutter',
 +    'flutter',
