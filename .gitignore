@@ -1,10 +1,19 @@
-flutter-*.pkg.tar.zst
-flutter-*.pkg.tar
-flutter-*.tar.xz
-flutter-*.log
-PKGBUILD-namcap.log
+# Created by https://www.toptal.com/developers/gitignore/api/archlinuxpackages
+# Edit at https://www.toptal.com/developers/gitignore?templates=archlinuxpackages
+
+### ArchLinuxPackages ###
+*.tar
+*.tar.*
+*.jar
+*.exe
+*.msi
+*.zip
+*.tgz
+*.log
+*.log.*
+*.sig
+
 pkg/
 src/
-*.zip
-*.tar.gz
-*.idea
+
+# End of https://www.toptal.com/developers/gitignore/api/archlinuxpackages
